@@ -9,7 +9,6 @@ import com.example.model.Employee;
 import com.example.repository.EmployeeRepository;
 
 @Service
-
 public class EmployeeService {
 	
 	private final EmployeeRepository employeeRepository;
