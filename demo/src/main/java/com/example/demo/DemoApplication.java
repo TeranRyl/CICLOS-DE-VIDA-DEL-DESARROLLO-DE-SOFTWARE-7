@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.example.model.Employee;
-import com.example.service.EmployeeService;
+import com.example.demo.model.Employee;
+import com.example.demo.service.EmployeeService;
 
 @SpringBootApplication
 public class DemoApplication {
@@ -46,5 +46,4 @@ public class DemoApplication {
 			employeeService.deleteEmployee(1L);
 		};
 	}
-
 }
